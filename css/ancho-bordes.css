@@ -1,0 +1,49 @@
+h1{
+	text-align:center;
+}
+.punteado{
+	border-style:dotted;
+	/*top, right, bottom, left (superior, derecha, inferior, izquierda)*/
+	/*ancho de borde con border-width*/
+	border-width:10px 5px 5px 5px;
+}
+.discontinuo{
+	border-style:dashed;
+	/*valores de tamaños predeterminados para bordes:
+	-thin (valor más delgado)
+	-medium (valor mediano)
+	-thick (valor máximo)*/
+	/*border-width:thin;*/
+}
+.solido{
+	border:solid red;
+	/*cuando hay solo tres valores el orden de aplicacion es: 10px para top, 5px para left y right, y 2px para bottom*/
+	border-width:10px 5px 2px; 
+}
+.doble{
+	border:5px double blueviolet;
+	/*cuando hay solo dos valores el orden de aplicacion es: 10px para top y bottom, y 5px para left y right;*/
+	/*el border-width al ser el ultimo valor declarado sobreescribe al valor de borde*/
+	border-width:10px 5px;
+}
+.surco{
+	border:10px groove;
+}
+.cresta{
+	border:10px ridge;
+}
+.recuadro{
+	border:10px inset;
+}
+.outset{
+	border:10px outset;
+}
+.sin_borde{
+	border:none;
+}
+.borde_oculto{
+	border:hidden;
+}
+.mixto{
+	border-style:dotted solid dashed double; 
+}

@@ -1,0 +1,14 @@
+h1{
+	text-align:center;
+}
+/*se aplican los redondeos en los bordes usando la propiedad border-radius:;*/
+.solido{
+	border:10px solid red; 
+	border-width:5px;
+	border-radius:20px;
+}
+/*las propiedades pueden ser mixtos*/
+.redondeado{
+	border:5px solid blueviolet;
+	border-radius:20px 0px 10px 0px;
+}

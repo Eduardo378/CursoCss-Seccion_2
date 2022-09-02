@@ -1,0 +1,32 @@
+h1{
+	text-align:center;
+}
+/*
+el primer valor de border es el píxel de ancho que queremos darle al borde, el segundo es para especificar el tipo de borde
+en este caso es sólido y por último el color del borde que queremos establecer*/
+.rojo{
+	/*background-color:firebrick;*/
+	border:10px solid firebrick;
+}
+
+/*el tipo de borde dashed es punteada (dashed - línea discontinua)*/
+/*también el tipo de color que se le da no es por nombre sino por color rgb (red, green y blue)*/
+.rosa{
+	/*background-color:hotpink;*/
+	border:10px dashed rgb(255,105,180);
+}
+
+/*el tipo de borde double especifíca dos líneas en borde*/
+/*también se especifica el tipo de color por hexadecimal*/
+.amarillo{
+	/*background-color:gold;*/
+	border:10px double #ffd700;
+}
+/*
+el tipo de borde dotted también es un borde punteado pero con puntos circulares, en cambio a dashed son
+líneas discontinuas*/
+/*también se especifíca el tipo de color por hsl (hue, saturation, lightness)*/
+.azul{
+	/*background-color:turquoise;*/
+	border:10px dotted hsl(174,72%,56%);
+}

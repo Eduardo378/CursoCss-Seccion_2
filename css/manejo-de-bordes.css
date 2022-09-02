@@ -1,0 +1,37 @@
+h1{
+	text-align:center;
+}
+.punteado{
+	border-style:dotted;
+}
+.discontinuo{
+	border-style:dashed;
+}
+.solido{
+	/*con esto lo simplificamos, el primer valor es el grosor, posteriormente el tipo y por ultimo el color*/
+	border:10px solid red; 
+}
+.doble{
+	border:5px double;
+}
+.surco{
+	border:10px groove;
+}
+.cresta{
+	border:10px ridge;
+}
+.recuadro{
+	border:10px inset;
+}
+.outset{
+	border:10px outset;
+}
+.sin_borde{
+	border:none;
+}
+.borde_oculto{
+	border:hidden;
+}
+.mixto{
+	border-style:dotted solid dashed double; 
+}

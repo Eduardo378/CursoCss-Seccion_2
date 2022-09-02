@@ -1,0 +1,50 @@
+h1{
+	text-align:center;
+}
+.punteado{
+	border-style:dotted;
+	border-width:10px 5px 5px 5px;/*
+	podemos agregarle color a los bordes, también podemos establecer los colores a cada lado de un borde con el orden de 
+	top, right, bottom y left*/
+	/*color por nombre es cuando usamos los colores que tiene agregado por default html y tienen su nombre identificador*/
+	border-color:crimson hotpink gold lime;
+}
+/*
+existen 4 tipos de codigos de colores, entre ellos está el hexadeciaml, codigo por nombre, hsla, y rgba
+el hsl significa: (hue, saturation, lightness y el a es de alfa para colocar transparencia, donde 1 es el 100% que da el 
+	color original, y 0 es completamente transparente por lo que da un color blanco y un valor de .5 seria el 50% de
+	transparencia), el rgba significa (red, green, blue) y el a de alfa para indicar transparencia*/
+.discontinuo{	
+	border-style:dashed;
+	/*color por hexadecimal*/
+	border-color:#447a9c;
+}
+.solido{
+	border:solid red;
+	border-width:10px 5px 2px; 
+}
+.doble{
+	border:5px double blueviolet;
+	border-width:10px 5px;
+}
+.surco{
+	border:10px groove;
+}
+.cresta{
+	border:10px ridge;
+}
+.recuadro{
+	border:10px inset;
+}
+.outset{
+	border:10px outset;
+}
+.sin_borde{
+	border:none;
+}
+.borde_oculto{
+	border:hidden;
+}
+.mixto{
+	border-style:dotted solid dashed double; 
+}
